@@ -1,0 +1,150 @@
+body {background-color:#4F6D93;
+		background-image:linear-gradient(to bottom, #FFFFFF, #4F6D93);
+		background-repeat:no-repeat;
+		font-family:sans-serif;}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block;}
+
+#wrapper {width:80%; min-width:960px; max-width: 2048px;
+			margin-right:auto;
+			margin-left:auto;
+			box-shadow: 3px 3px 3px #333333;
+			background-color:#90C7E3;}
+
+
+header {background-color:#000033;
+		color:#FFFFFF;
+		background-image: url(sunset.jpg);
+		background-repeat:no-repeat;
+		background-position:right;
+		height: 60px;
+		text-align:center;
+		padding-top:15px;}
+
+h1{margin-bottom:0;
+	margin-top:0;
+	font-family:Times New Roman;}
+
+nav {padding: 20px;
+	float: left;
+	width:160px;
+	color:#FFFFFF;
+	font-weight:bold;}
+
+nav a {text-decoration: none;}
+nav a:link {color:#000033;}
+nav a:visited {color:#344873;}
+nav a:hover {color:#FFFFFF;}
+
+main {background-color:#FFFFFF;
+	margin-left:190px;
+	padding-top:1px;
+	padding-right:20px;
+	padding-bottom:2px;
+	padding-left:30px;
+	display:block;
+}
+main ul {list-style-type:none;
+		margin: 0px;
+		padding-left: 0px;
+		font-size: 1.2em;}
+
+h2 {color:#3399CC;
+	font-family:Times New Roman;
+	text-shadow: 1px 1px 1px #CCCCCC;}
+
+h3 {font-family:Times New Roman;}
+
+dt{color:#000033;}
+
+.resort {color:#5C7FA3;
+		font-weight:bold;}
+
+#contact {font-size:90%;}
+
+footer {font-size:75%;
+	margin-left:190px;
+	background-color:#FFFFFF;
+	font-style:italic;
+	text-align:center;
+	font-family:Times New Roman;
+	padding:20px;}
+
+nav ul {list-style-type:none;
+		margin:0px;
+		padding-left:0px;
+		font-size:1.2em;}
+
+#homehero {
+	height: 300px;
+	margin-left:190px;
+	background-image: url(coasthero.jpg);
+	background-size: 100% 100%;
+}
+
+#yurthero {
+	height: 300px;
+	margin-left:190px;
+	background-image: url(yurthero.jpg);
+	background-size: 100% 100%;
+}
+
+#trailhero {
+	height: 300px;
+	margin-left:190px;
+	background-image: url(trailhero.jpg);
+	background-size: 100% 100%;
+}
+
+<!--to be set in index-->
+#mobile {display: none;}
+#desktop {display: inline;}
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block;}
+@media only screen and (max-width: 64em) {
+		body {margin: 0;
+		background-color: #FFFFFF;}
+		#wrapper {min-width: 0;
+		width: auto;
+		box-shadow: none;}
+		main {margin-left: 0;}
+		nav {float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;}
+		nav li {display: inline;
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;}
+		#homehero {margin-left:0;
+		height: 200px;}
+		#yurthero {margin-left:0;
+		height:200px;}
+		#trailhero {margin-left:0;
+		height:200px;}
+		footer {margin-left: 0;}
+		}
+
+@media only screen and (max-width: 37.5em) {
+		#header {padding-top: 1em;}
+		main {padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		font-size: 90%;}
+		h1 {font-size: 1.5em;}
+		nav {padding: 0;}
+		nav li {display: block;
+		margin: 0;
+		border-bottom: 2px solid #330000;}
+		nav a {display: block;}
+		#homehero {background-image: none;
+		height: 0;}
+		#yurhero {background-image: none;
+		height: 0;}
+		#trailhero {background-image: none;
+		height: 0;}
+		#mobile {display: inline;}
+		#desktop {display: none;}
+
+}
